@@ -16,7 +16,6 @@ public class readPatientCredentials {
 		try {
 			wbook = new XSSFWorkbook(filelocation);
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		XSSFSheet sheet = wbook.getSheetAt(0);
@@ -35,7 +34,6 @@ public class readPatientCredentials {
 		try {
 			wbook.close();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		return data;
